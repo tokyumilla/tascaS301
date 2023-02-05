@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Introduce una opción (1-10)");
-        System.out.println("10. Cerrar el programa");
         Scanner sc = new Scanner(System.in);
         int option;
         Undo undo = Undo.getInstance();
