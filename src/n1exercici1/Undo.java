@@ -28,7 +28,7 @@ public class Undo {
 
     public void listActions() {
         int s = actions.size();
-        System.out.println("Estas son las acciones realizadas");
+        System.out.println("Estas son las últimas acciones realizadas");
         if (s <= 5) {
             for (int i = s; i > 0; i--) {
                 System.out.println(actions.get(i - 1));
